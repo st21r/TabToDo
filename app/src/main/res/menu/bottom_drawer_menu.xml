@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/drawer_menu_main"
+           android:checkableBehavior="none">
+        <item android:id="@+id/tab_management"
+              android:icon="@drawable/ic_tab_24dp"
+              android:title="タブの管理" />
+
+        <item android:id="@+id/settings"
+              android:icon="@drawable/ic_settings_24dp"
+              android:title="設定" />
+
+    </group>
+
+    <group android:id="@+id/drawer_menu_other"
+           android:checkableBehavior="none">
+        <item android:id="@+id/send_feedback"
+              android:icon="@drawable/ic_feedback_24dp"
+              android:title="フィードバックを送信" />
+    </group>
+</menu>

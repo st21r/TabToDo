@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "744386849940",
+    "firebase_url": "https://tab-todo.firebaseio.com",
+    "project_id": "tab-todo",
+    "storage_bucket": "tab-todo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744386849940:android:bf5277b0b332441e",
+        "android_client_info": {
+          "package_name": "io.github.bjxytw.tabtodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744386849940-jpfcanh6vh4i0f91aglrrdai1mcharps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT4OXyrvD5DeqaNFWyuyYoNyS-7Ues-Lg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744386849940-jpfcanh6vh4i0f91aglrrdai1mcharps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

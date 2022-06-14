@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TAB ToDo</string>
+    <string name="add_task">タスクを追加</string>
+    <string name="add_date">期日を追加</string>
+    <string name="add_time">時刻の設定</string>
+    <string name="add_repeat">繰り返しの設定</string>
+    <string name="notification_channel_name">タスクの通知</string>
+    <string name="notification_channel_description">時間指定したタスクを通知します。</string>
+    <string name="delete_all">すべて削除</string>
+    <string name="sort_item">並び替え</string>
+    <string name="checked_tasks">タブの完了済みタスク</string>
+    <string name="save">保存</string>
+    <string name="delete">削除</string>
+    <string name="cancel">キャンセル</string>
+    <string name="change_color">色の変更</string>
+    <string name="task_title_hint">タイトルを入力</string>
+    <string name="task_edit_title">タスクの編集</string>
+    <string name="task_create_title">新規タスク</string>
+    <string name="confirm_delete_task">タスクを削除しますか？</string>
+    <string name="confirm_delete_tab_title">タブを削除しますか？</string>
+    <string name="confirm_delete_tab_message">タブ内の全ての項目も削除されます</string>
+    <string name="confirm_delete_all_checked_task">タブ内の全ての完了済みタスクを削除しますか？</string>
+    <string name="settings">設定</string>
+</resources>

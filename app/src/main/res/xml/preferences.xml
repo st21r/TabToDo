@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/pref_category_notification">
+
+        <Preference
+                android:key="notification"
+                android:title="@string/pref_notification"
+                android:summary="@string/pref_notification_summary"
+                android:icon="@drawable/ic_notifications_preferences_24dp">
+        </Preference>
+
+        <ListPreference
+                android:key="notification_timing"
+                android:title="@string/pref_notification_timing"
+                android:summary="%s"
+                android:entries="@array/pref_notification_timing_list"
+                android:entryValues="@array/pref_notification_timing_list_values"
+                android:defaultValue="default"
+                android:icon="@drawable/ic_time_preferences_24dp" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_list">
+
+        <SwitchPreference
+                android:key="insert_top"
+                android:title="@string/pref_insert_top"
+                android:summary="@string/pref_insert_top_summary"
+                android:defaultValue="true"
+                app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_others">
+
+        <Preference
+                android:key="license"
+                android:title="@string/pref_license"
+                app:iconSpaceReserved="false">
+            <intent android:targetPackage="com.google.android.gms.oss.licenses"
+                    android:targetClass="OssLicensesMenuActivity" />
+        </Preference>
+
+        <Preference
+                android:key="privacy_polity"
+                android:title="@string/pref_privacy_polity"
+                app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

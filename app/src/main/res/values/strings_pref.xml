@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_category_notification">通知</string>
+    <string name="pref_notification">通知の設定</string>
+    <string name="pref_notification_summary">システムの通知設定</string>
+    <string name="pref_notification_timing">通知のタイミング</string>
+    <string name="pref_category_list">リストの設定</string>
+    <string name="pref_insert_top">タスクを上から追加</string>
+    <string name="pref_insert_top_summary">並び替え「カスタム」設定時、新規タスクを上から追加する</string>
+    <string name="pref_category_others">その他</string>
+    <string name="pref_license">オープンソース ライセンス</string>
+    <string name="pref_privacy_polity">プライバシーポリシー</string>
+    <string-array name="pref_notification_timing_list">
+        <item>設定した時刻に通知</item>
+        <item>5分前に通知</item>
+        <item>15分前に通知</item>
+        <item>30分前に通知</item>
+        <item>1時間前に通知</item>
+    </string-array>
+    <string-array name="pref_notification_timing_list_values">
+        <item>default</item>
+        <item>5_minute_ago</item>
+        <item>15_minute_ago</item>
+        <item>30_minute_ago</item>
+        <item>1_hour_ago</item>
+    </string-array>
+</resources>
